@@ -1,4 +1,12 @@
-<?php
-	echo "Hello Lord";
-
-	?>
+<html>
+<head>
+		<title>
+			Belajar PHP
+		</title>
+</head>	
+<body>
+	<h1>
+		Selamat Datang <?php echo "Masukan Nama Anda";?>
+	</h1>
+</body>
+</html>
