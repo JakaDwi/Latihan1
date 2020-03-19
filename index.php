@@ -6,7 +6,7 @@
 </head>	
 <body>
 	<h1>
-		Selamat Datang <?php echo "Masukan Nama Anda";?>
+		Selamat Datang <?php echo "masukan nama anda";?>
 	</h1>
 </body>
 </html>
