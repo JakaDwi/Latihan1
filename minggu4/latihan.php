@@ -3,10 +3,11 @@
 // perulangan
 // while
 
-$i = 0; #bagian inisialisasi
+$i = 1; #bagian inisialisasi
 
-    while ($i < 5) { #didalam bracket() kondisi terminasi
-        echo "Hai, +62 people! <br>";
+    echo "<H1> Menggunakan perulangan while <br> </H1>";
+    while ($i <= 5) { #didalam bracket() kondisi terminasi
+        echo "Hai, ini baris ke- $i <br>";
         $i++; #increment
     }
 
