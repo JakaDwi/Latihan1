@@ -1,9 +1,9 @@
-<?php;
+<?php
 // perulangan
 // for
-
-for ($i = 0; $i < 5; i++){
-        echo "Hello Lord ! <br>";
+echo "<H1> Menggunakan perulangan For <br> </H1>";
+    for ($i = 1; $i <= 5; $i++){
+        echo "Hai, saya urutan ke-$i <br>";
 }
 /* $i = 0; bagian inisialisai/ menentukan variable
 $i , 5;    bagian kondisi/ untuk memberhentikan kondisi
