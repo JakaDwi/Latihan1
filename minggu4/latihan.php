@@ -1,14 +1,16 @@
 <?php
 
 // perulangan
-// while
+// do while
 
-$i = 1; #bagian inisialisasi
+echo "<H2> Menggunakan perulangan Do While </H2>";
+    $i = 10;
+    do {
+        echo "Hello Lord ! <br>";
+    $i++;
+        } 
+    while ( $i < 5 );
 
-    echo "<H1> Menggunakan perulangan while <br> </H1>";
-    while ($i <= 5) { #didalam bracket() kondisi terminasi
-        echo "Hai, ini baris ke- $i <br>";
-        $i++; #increment
-    }
+# $i = 10;
 
 ?>
