@@ -1,12 +1,12 @@
 <?php
     //date untuk menampilkan tanggal dengan format tertentu
 
-    echo date ("l d, m M Y");
+    echo date (
+        "l, d-M-Y",
+        time() +
+            60 * 60 * 60 * 24 + 100
+            );
 
-    /* date ("l") untuk menampilkan nama hari
-       date(“d”)  untuk menampilkan tanggal
-       date(“M”)  untuk menampilkan bulan dalam Text
-       date(“m”)  untuk menampilkan bulan dalam angka
-       date(“Y”)  untuk menampilkan Tahun */
-       
+    // dengan format tersebut kita dapat mengetahui 100 hari yang akan datang hari apa
+
     ?>
