@@ -4,7 +4,7 @@
     echo date (
         "l, d-M-Y",
         time() +
-            60 * 60 * 60 * 24 + 100
+            60 * 60 * 24 * 100
             );
 
     // dengan format tersebut kita dapat mengetahui 100 hari yang akan datang hari apa
