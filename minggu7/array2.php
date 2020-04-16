@@ -1,6 +1,13 @@
 <?php
-$mahasiswa =["Jaka Dwi Prasetyo", "19.52.0004", "Teknik 
-Informatika", "pelolong24@gmail.com"];
+//array multidimensi/ array didalam array/ array bersarang
+$mahasiswa =[
+    ["Jaka Dwi Prasetyo", "19.52.0004", "Teknik 
+    Informatika", "pelolong24@gmail.com"],
+    ["Jaka Dwi", "19.525.0004", "Teknik 
+    Informatika", "pel25@gmail.com"],
+    ["Jaka", "19.5.0041", "Teknik 
+    Informatika", "pelolooooong@gmail.com"]
+];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,13 +18,12 @@ Informatika", "pelolong24@gmail.com"];
 </head>
 <body>
     <h1>Daftar Mahasiswa</h1>
+    <?php foreach($mahasiswa as $mhs) : ?>
     <ul>
-        <?php foreach($mahasiswa as $mhs): ?>
-        <li>
-            <?php echo $mhs; ?>
-        </li>
+        <?php foreach($mhs as $m) : ?>
+        <li> <?php echo $m; ?> </li>
         <?php endforeach; ?>
     </ul>
-    
+    <?php endforeach; ?>
 </body>
 </html>
