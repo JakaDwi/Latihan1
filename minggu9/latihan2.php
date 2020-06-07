@@ -1,6 +1,6 @@
 <?php
-
-if(!isset($_GET["nama"])){
+//cek apakah $_GET terdapat data?
+if( !isset($_GET["nama"]) ){
     //redirect
     header("Location: latihan1.php");
     exit;
